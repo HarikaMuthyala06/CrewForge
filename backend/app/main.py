@@ -26,10 +26,10 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-        "https://crewforge-frontend.vercel.app",
-    ],
+   allow_origins=[
+    "http://localhost:5173",
+    "https://crewforge-frontend-qumx5q0yi-harika5.vercel.app",
+],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
